@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar {
+    padding: 1px;
+    transition: 0.7s;
+    width: 1px;
+    overflow: hidden;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    align-items: stretch;
+}
+
+.menu-item {
+    padding: 5px;
+    line-height: 24px;
+    overflow: hidden;
+    width: 100px;
+}
+
+.menu-item:hover {
+    color: white;
+    transition: 1s;
+    background-color:#111;
+}
+
+.side-bar:hover {
+    transition: 0.7s;
+    overflow: hidden;
+    width: 100px;
+}
